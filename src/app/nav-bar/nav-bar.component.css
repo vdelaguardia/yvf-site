@@ -1,0 +1,22 @@
+.nav-component {
+  display: flex;
+  align-items: center;
+  padding: 10px 300px;
+  background-color: #2F2E2E;
+  position: sticky;
+}
+
+.nav-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: 'Spinnaker';
+  font-size: 16px;
+}
+
+a {
+  padding: 15px;
+  color: #F0FAFF;
+  text-decoration: none;
+}
