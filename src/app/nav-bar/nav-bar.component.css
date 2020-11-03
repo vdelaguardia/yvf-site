@@ -20,3 +20,31 @@ a {
   color: #F0FAFF;
   text-decoration: none;
 }
+
+a:hover {
+  color: aqua;
+}
+
+#cart {
+  display: flex;
+  margin-left: 10px;
+}
+
+#cart-svg {
+  display: flex;
+  justify-content: flex-start;
+  z-index: 2;
+}
+
+#cart-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  font-family: 'Spinnaker';
+  font-size: 16px;
+  padding: 0px;
+  width: 20px;
+  margin-right: -33px;
+  margin-bottom: 10px;
+}

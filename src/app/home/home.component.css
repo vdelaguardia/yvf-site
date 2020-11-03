@@ -32,3 +32,10 @@ button {
 button:hover {
   background-color: #323232;
 }
+
+.background {
+  background-image: url("../../assets/bkgd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
